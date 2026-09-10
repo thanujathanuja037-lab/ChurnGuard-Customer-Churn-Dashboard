@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Power BI
+*.pbix.bak
+~$*.pbix
+
+# Data
+data/*.csv
+!data/sample_head.csv
+
+# Credentials — NEVER commit these
+*.env
+config.py
